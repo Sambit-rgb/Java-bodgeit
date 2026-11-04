@@ -37,6 +37,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=${{ runner.os }}-sonar
+            -Dsonar.projectKey=Java-bodgeit
             -Dsonar.organization=sambit-rgb
           projectBaseDir: .
